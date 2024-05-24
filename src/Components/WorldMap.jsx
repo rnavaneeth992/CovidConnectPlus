@@ -1,4 +1,3 @@
-//It is used to design the World Map Page layout
 import { Marker, Popup } from "react-leaflet";
 import L from "leaflet";
 import React from "react";

@@ -22,8 +22,6 @@ import WorldMap from "../Components/WorldMap";
 const Dashboard = () => {
   const [countriesData, setCountriesData] = useState([]);
   const [chartData, setChartData] = useState({});
-
-  // Below the API keys to fetch the realtime data is used
   useEffect(() => {
     axios("https://disease.sh/v3/covid-19/countries").then((res) => {
       const data = res.data;

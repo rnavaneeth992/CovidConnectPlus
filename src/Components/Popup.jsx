@@ -1,4 +1,3 @@
-// This file is used to create Popup on clicking the contact name
 import React from "react";
 const Popup = ({ close, el }) => {
   return (

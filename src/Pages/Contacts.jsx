@@ -1,4 +1,3 @@
-// All contacts are visible here and edit and delete option is also available
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
